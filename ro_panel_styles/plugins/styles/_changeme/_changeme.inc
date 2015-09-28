@@ -8,9 +8,9 @@
 $plugin = array(
   'title' => t('Change the title of the pane'),
   'description' => t('Change me I am a description for this style.'),
-  'render pane' => 'ro_panel_styles_changeme_pane',
-  'render region' => 'ro_panel_styles_changeme_region',
-  'weight' => -10,
+  'render pane' => 'ro_panel_styles_changeme_pane', // set the function for panes, ie theme_ro_panel_styles_changeme_pane
+  'render region' => 'ro_panel_styles_changeme_region', // set for region
+  'weight' => -10, // whatever number you want, it dont matter
 );
 
 /**
