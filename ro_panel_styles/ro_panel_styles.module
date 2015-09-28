@@ -1,0 +1,14 @@
+<?php
+
+/**
+* Implementation of hook_ctools_plugin_directory().
+*/
+function ro_panel_styles_ctools_plugin_directory($module, $plugin) {
+	if ($module == 'page_manager' || $module == 'panels') {
+		return 'plugins/' . $plugin;
+	}
+}
+
+function ro_panel_styles_init() {
+	drupal_add_css(drupal_get_path('module','ro_panel_styles') .'/plugins/styles/ro_panel_styles.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));
+}

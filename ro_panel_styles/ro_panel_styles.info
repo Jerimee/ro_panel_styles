@@ -1,0 +1,8 @@
+name = Richir Outreach Panel Styles
+description = "Provides additional style options for panels"
+dependencies[] = panels
+stylesheets[all][] = foundation.grid.css
+
+package = "Panels"
+core = 7.x
+version = "7.x-0.1"

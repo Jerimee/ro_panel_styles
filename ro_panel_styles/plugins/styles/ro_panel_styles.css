@@ -1,0 +1,1278 @@
+/*
+	---------------------------------------------------------------------------
+		Sidebar Link Buttons (sidebar_link_buttons)	
+	---------------------------------------------------------------------------
+*/
+
+.sidebar_link_buttons ul {
+	list-style-type: none;
+	margin: 1rem 0;	
+}
+
+.sidebar_link_buttons ul li {
+	margin: 0;
+	margin-bottom: 1rem;	
+}
+
+.sidebar_link_buttons ul li a, 
+.sidebar_link_buttons input,
+.sidebar_link_buttons input.form-submit {
+	color: #FFFFFF;
+	background: #4270b4;
+	border: 2px solid #34598f;
+	padding: 0.5rem 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	transition: 300ms;
+}
+
+.sidebar_link_buttons ul li a:hover,
+.sidebar_link_buttons input:hover,
+.sidebar_link_buttons input.form-submit:hover {
+	background: #34598f;
+}
+
+/*
+	---------------------------------------------------------------------------
+		Full Width Content (full_width_content)
+	---------------------------------------------------------------------------
+*/
+
+.full-width-content {
+	margin-left: -0.9375rem;
+	margin-right: -0.9375rem;
+}
+
+/*
+	---------------------------------------------------------------------------
+		Header Menu (header_menu)
+	---------------------------------------------------------------------------
+*/
+
+.header-menu .desktop-menu {
+	padding-top: 1.25rem;
+}
+
+.header-menu .desktop-menu ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	margin-top: 1rem;
+}
+
+.header-menu .desktop-menu ul li {
+	display: inline-block;
+}
+
+.header-menu .desktop-menu ul li a {
+	color: #000000;
+	font-size: 0.75rem;
+	padding: 0 0.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.header-menu .desktop-menu ul li a:hover, .header-menu .desktop-menu ul li a:focus {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.header-menu .desktop-menu .menu li {
+	position: relative;
+}
+
+.header-menu .desktop-menu .menu .menu {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+	min-width: 100%;
+	z-index: 99;
+	padding-top: 1rem;
+}
+
+.header-menu .desktop-menu .menu .menu:before {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 11px 14px 11px;
+	border-color: transparent transparent #E2B34A transparent;
+	position: absolute;
+	top:  4px;
+	left: 3px;
+	display: block;
+	content: " ";
+}
+
+.header-menu .desktop-menu .menu .menu:after {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 9px 12px 9px;
+	border-color: transparent transparent #F6E8CB transparent;
+	position: absolute;
+	top:  5px;
+	left: 5px;
+	display: block;
+	content: " ";
+}
+
+.header-menu .desktop-menu .menu .menu li {
+	background-color: #F6E8CB;
+	border-bottom: 1px solid #dfa215;
+	border-left: 1px solid #dfa215;
+	border-right: 1px solid #dfa215;
+	display: block;
+}
+
+.header-menu .desktop-menu .menu .menu li a {
+	display: block;
+	padding: 0.25rem 0.5rem;
+}
+
+.header-menu .desktop-menu .menu .menu li:hover {
+	background-color: white;
+}
+
+.header-menu .desktop-menu .menu .menu li:first-child {
+	border-top: 1px solid #dfa215;
+}
+
+.header-menu .desktop-menu li:hover .menu {
+	display: block;
+}
+
+.header-menu .mobile-menu {
+	margin-left: -0.9375rem;
+	margin-right: -0.9375rem;
+}
+
+/*
+	-------------------------------------------------------------------
+		Donate Button Pane Style
+	-------------------------------------------------------------------
+*/
+
+.donate-button ul li {
+	background: url('../images/activity-icons-sprite-smaller.png') -116px 35px no-repeat;
+	list-style-type: none;
+	width: 50px;
+	text-align: center;
+	height: 100px;
+}
+
+.donate-button ul li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+}
+
+.donate-button ul li a:hover {
+	color: #FFFFFF;
+}
+
+/*
+	-------------------------------------------------------------------
+		Yellow Background
+	-------------------------------------------------------------------
+*/
+
+.yellow-background {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F6E8CB;
+	word-wrap: break-word;
+	color: #000000;
+	padding: 0rem;
+}
+
+.yellow-background ul {
+	margin: 0;
+}
+
+.yellow-background ul li a {
+	color: #000000;
+}
+
+.yellow-background ul li a:hover {
+	color: #dfa215;
+}
+
+/*
+	-------------------------------------------------------------------
+		White Background
+	-------------------------------------------------------------------
+*/
+
+.white-background {
+	background-color: #FFFFFF;
+	word-wrap: break-word;
+}
+
+/*
+	-------------------------------------------------------------------
+		Action Areas (action_areas)
+	-------------------------------------------------------------------
+*/
+
+.action-areas {
+	margin-left: -0.9375rem;
+	margin-right: -0.9375rem;
+	background-color: #000000;
+	word-wrap: break-word;
+	padding: 1rem;
+	min-height: 322px;
+}
+
+@media screen and (min-width: 469px) and (max-width: 641px) {
+	.action-areas {
+		padding: 1rem 7rem;
+	}
+}
+
+@media only screen and (max-width: 40em) {
+	.action-areas .element-invisible {
+		overflow: hidden;
+		display: none;
+	}
+}
+
+.action-areas a {
+	color: #FFFFFF;
+}
+
+.action-area-wrapper:hover, .action-areas a:focus {
+	color: #FFFFFF;
+}
+
+.action-areas a h3 {
+	color: #FFFFFF;
+	transition: 300ms;
+}
+
+.action-area-wrapper:hover h3, .action-areas a:focus h3 {
+	color: #dfa215;
+}
+
+.action-areas img {
+	transition: 300ms;
+	filter: none;
+	margin-bottom: 1rem;
+}
+
+.action-area-wrapper:hover img, .action-areas a:focus img {
+	-webkit-filter: grayscale(50%); 
+	filter: grayscale(50%);
+}
+
+.action-areas h3 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.25rem;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.action-areas a .field-name-field-caption {
+	color: #FFFFFF;
+	font-size: 0.75rem;
+	text-align: left;
+}
+
+/*
+	-------------------------------------------------------------------
+		Logo Styles
+	-------------------------------------------------------------------
+*/
+
+.logo-styles {
+	text-align: center;
+}
+
+.logo-styles img {
+	padding: 1em;
+	width: 100%;
+}
+
+/*
+	-------------------------------------------------------------------
+		Black Background (black_background)
+	-------------------------------------------------------------------
+*/
+
+.black-background {
+	border: 1px solid #0c0c0c;
+	background-color: #000000;
+	//margin-left: -0.9375rem;
+	//margin-right: -0.9375rem;
+	//margin-bottom: 1rem;
+	word-wrap: break-word;
+	margin: 2rem 0;
+	color: #FFFFFF;
+	padding: 1rem;
+}
+
+.black-background h1, 
+.black-background h2, 
+.black-background h3, 
+.black-background h4, 
+.black-background h5, 
+.black-background h6 {
+	text-transform: uppercase;
+	padding: 1rem 0;
+	font-size: 1rem;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.black-background p {
+	font-size: 1rem;
+}
+
+.black-background a {
+	color: #FCD0CF;
+}
+
+.black-background a:hover {
+	color: #977C7C;
+}
+
+/*
+	-------------------------------------------------------------------
+		Black Background Huge (black_background_huge)//
+	-------------------------------------------------------------------
+*/
+
+.black-background-huge {
+	border: 1px solid #0c0c0c;
+	background-color: #000000;
+	word-wrap: break-word;
+	margin: 2rem 0;
+	color: #FFFFFF;
+	padding: 1rem;
+}
+
+.black-background-huge h1,
+.black-background-huge h2,
+.black-background-huge h3,
+.black-background-huge h4,
+.black-background-huge h5,
+.black-background-huge h6 {
+	text-transform: uppercase;
+	font-size: 4rem;
+	padding: 1rem 0;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.black-background-huge p {
+	font-size: 3rem;
+
+}
+
+.black-background-huge a {
+	color: #FCD0CF;
+}
+
+.black-background-huge a:hover {
+	color: #977C7C;
+}
+
+/*
+	-------------------------------------------------------------------
+		Footer Navigation
+	-------------------------------------------------------------------
+*/
+
+.footer-nav .pane-title {
+	color: #FFFFFF;
+	font-size: 1.15rem;
+	margin-left: 1.1rem;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.footer-nav a {
+	color: #FFFFFF
+}
+
+.footer-nav a:hover {
+	color: #dfa215;
+}
+
+.footer-nav ul {
+	-moz-column-count: 2;
+	-moz-column-gap: 5px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 5px;
+	column-count: 2;
+	column-gap: 5px;
+}
+
+/*
+	---------------------------------------------------------------------------
+		Image Link (image_link)
+	---------------------------------------------------------------------------
+*/
+
+.image-link {
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.image-link a {
+	transition: 300ms;
+}
+
+.image-link h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.image-link a:hover h3 {
+	color: #dfa215;
+}
+
+.image-link img {
+	padding: 1rem;
+	height: 100px;
+	-webkit-transition:all 300ms ease-out;
+	-moz-transition:all 300ms ease-out;
+	-ms-transition:all 300ms ease-out;
+	-o-transition:all 300ms ease-out;
+	transition:all 300ms ease-out;	
+}
+
+.image-link a:hover img {
+	-webkit-transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-ms-transform:scale(1.3);
+	-o-transform:scale(1.3);
+	transform:scale(1.3);
+}
+
+/*
+	---------------------------------------------------------------------------
+		Social Media section in the header
+	---------------------------------------------------------------------------
+*/
+
+.header-soc-med {
+	text-align: center;
+	font-size: 1.2rem;
+	display: inline-block;
+}
+
+.header-soc-med a {
+	margin: 0.2rem;
+	transition: 300ms;
+}
+
+.header-soc-med a.fb:hover,
+.header-soc-med a.fb:focus,
+.header-soc-med a.fb:active,
+.footer-soc-med a.fb:hover,
+.footer-soc-med a.fb:focus,
+.footer-soc-med a.fb:active {
+	color: #3b5998;	
+}
+
+.header-soc-med a.tw:hover,
+.header-soc-med a.tw:focus,
+.header-soc-med a.tw:active,
+.footer-soc-med a.tw:hover,
+.footer-soc-med a.tw:focus,
+.footer-soc-med a.tw:active {
+	color: #0084b4;	
+}
+
+.header-soc-med a.yt:hover,
+.header-soc-med a.yt:focus,
+.header-soc-med a.yt:active,
+.footer-soc-med a.yt:hover,
+.footer-soc-med a.yt:focus,
+.footer-soc-med a.yt:active {
+	color: #e52d27;	
+}
+
+.header-soc-med .pane-content {
+	display: inline;
+}
+
+.header-soc-med span {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+.header-soc-med .pane-title {
+	padding-right: 0.6rem;
+}
+
+/*
+	---------------------------------------------------------------------------
+		Social Media section in the footer
+	---------------------------------------------------------------------------
+*/
+
+.footer-soc-med {
+	font-size: 1.2rem;
+	padding-top: 0.5rem;
+}
+
+.footer-soc-med a {
+	margin: 0.2rem;
+}
+
+.footer-soc-med span {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	color: #FFFFFF;
+}
+
+.footer-soc-med .pane-title {
+	color: white;
+	font-size: 1.15rem;
+	text-transform: uppercase;
+}
+
+.footer-soc-med .footer-nav {
+	height: 200px;
+}
+
+/*.footer-soc-med {
+	border-left: 1px solid #dfa215;
+}*/
+
+/*
+	-------------------------------------------------------------------
+		Sidebar Donate button
+	-------------------------------------------------------------------
+*/
+
+.side-donate a {
+	color: #FFFFFF;
+	font-size: 2rem;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-color: #3d84cb;
+	display: block;
+	width: 88%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 40em) {
+	.side-donate a {
+		font-size: 1rem;
+	}
+}
+
+.side-donate a:focus,
+.side-donate a:hover {
+	background-color: #1d446c;
+	color: #FFFFFF;
+}
+
+.side-donate ul {
+	list-style-type: none;
+}
+
+.side-donate ul li {
+	margin-left: 0;
+}
+
+/*
+	-------------------------------------------------------------------
+		Sidebar Join button
+	-------------------------------------------------------------------
+*/
+
+.side-join a {
+	color: #FFFFFF;
+	font-size: 2rem;
+	text-transform: uppercase;
+	display: block;
+	width: 88%;
+	text-align: center;
+	background-color: #3d84cb;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 40em) {
+	.side-join a {
+		font-size: 1rem;
+	}
+}
+
+.side-join a:focus,
+.side-join a:hover {
+	background-color: #1d446c;
+	color: #FFFFFF;
+}
+
+.side-join ul {
+	list-style-type: none;
+}
+
+/*
+	-------------------------------------------------------------------
+		Inner Page Body styles (sidebar)
+	-------------------------------------------------------------------
+*/
+
+.inner-body {
+	margin: 3rem 0 3rem 0;
+	padding: 0 1rem 0 2rem;
+}
+
+.inner-body .panel-separator {
+	margin-bottom: 1rem;
+}
+
+.inner-body .field.field-name-field-basic-text-text.field-type-text-long.field-label-hidden.field-wrapper p {
+	text-shadow: 2px 2px 2px #BFBFBF;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.inner-body .field-name-field-sponsor-organizations {
+	font-style: italic;
+}
+
+/*
+	-------------------------------------------------------------------
+		Main Page Body styles (main content)
+	-------------------------------------------------------------------
+*/
+
+.main-body {
+	border-right: 2px solid #dfa215;
+}
+
+@media only screen and (max-width: 64em) {
+	.main-body  {
+		border-right: none;
+		padding: 0 1rem;
+	}
+}
+
+/*
+	-------------------------------------------------------------------
+		AK Signup Styles for the header
+	-------------------------------------------------------------------
+*/
+
+.ak-signup {
+	display: inline-block;
+	margin-top: 1rem;
+}
+
+.ak-signup .pane-title {
+	text-transform: uppercase;
+	font-size: 1.15rem;
+}
+
+.ak-signup .submitform {
+	text-transform: uppercase;
+	border: 1px #dfa215 solid;
+	padding: 0 1rem;
+	//margin-top: 0.7rem;
+	font-size: 1.2rem;
+	background: none;
+	color: #000000;
+	float: right;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.ak-signup .submitform:hover {
+	border: 1px solid #fff;
+	background-color: #6a4d0a;
+	color: white;
+}
+
+.ak-signup .action_form  #id_email {
+	::-webkit-color: #000000;
+	:-moz-color: #000000; /* Firefox 18- */
+	::-moz-color: #000000; /* Firefox 19+ */
+	:-ms-color: #000000;
+	-o-color: #000000;
+	color: #000000;
+	border: none;
+	border-bottom: #000000 solid 1px;
+	box-shadow: none;
+	font-size: 12px;
+	float: left;
+	width: auto;
+	height: 25px;
+	margin: 5px 0;
+	margin-right: 1.5rem;
+	padding: 2px 10px;
+}
+
+.ak-signup .action_form  #id_email:focus,
+.ak-signup .action_form  #id_email:active {
+	background-color: transparent;
+}
+
+.ak-signup .action_form  #id_email::-webkit-input-placeholder,
+.ak-signup .action_form  #id_email:-moz-placeholder,
+.ak-signup .action_form  #id_email::-moz-placeholder,
+.ak-signup .action_form  #id_email:-ms-input-placeholder { 
+	color: black;
+}
+
+/*
+	-------------------------------------------------------------------
+		AK Signup Styles for the footer
+	-------------------------------------------------------------------
+*/
+
+.ak-signup-f {
+	display: inline-block;
+}
+
+.ak-signup-f .pane-title {
+	color: white;
+	font-size: 1.15rem;
+	text-transform: uppercase;
+}
+
+.ak-signup-f .submitform {
+	text-transform: uppercase;
+	border: 1px #dfa215 solid;
+	padding: 0.5rem 1rem;
+	//margin-top: 0.7rem;
+	font-size: 1.2rem;
+	background: none;
+	color: #FFFFFF;
+	float: right;
+}
+
+.ak-signup-f .action_form #id_email {
+	border: none;
+	border-bottom: #FFFFFF solid 1px;
+	background: transparent;
+	color: #FFFFFF;
+	float: left;
+	width: 65%;
+}
+
+.ak-signup-f .submitform:hover {
+	border: 1px solid #FFFFFF;
+	background-color: #6a4d0a;
+}
+
+/*
+	-------------------------------------------------------------------
+		Tagline styles for the homepage
+	-------------------------------------------------------------------
+*/
+
+.tagline p {
+	color: #4d4d4d;
+	font-size: 2rem;
+	padding: 3rem 0rem;
+	text-align: center;
+	margin-bottom: 0rem;
+	text-shadow: 2px 2px #BFBFBF;
+}
+
+/*
+	-------------------------------------------------------------------
+		Styles for take action feed
+	-------------------------------------------------------------------
+*/
+
+.action-feed a {
+	color: #000000;
+}
+
+.action-feed .views-row {
+	border-bottom: 2px solid #dfa215;
+	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+a.take-action {
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding: .8rem;
+	background-color: #3d84cb;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 1rem;
+}
+
+a.take-action:focus,
+a.take-action:hover {
+	background-color: #1d446c;
+	color: #FFFFFF;
+}
+
+.action-feed h2 {
+	color: #e2b34a;
+	padding: 2rem 2rem 1rem;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+}
+
+.action-feed .pane-content {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.action-feed .views-field.views-field-field-image {
+	padding: 0.5rem 1rem 0.5rem 0rem;
+	float: left;
+}
+
+.action-feed h4.views-field.views-field-title {
+	padding-bottom: 0.5rem;
+}
+
+.action-feed .views-field.views-field-nothing {
+	text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+	.action-feed .views-field.views-field-field-image {
+		width: 50%;
+	}
+}
+
+.action-feed img {
+	max-width: 220px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 641px) {
+	.action-feed img {
+		max-width: 150px;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+	.action-feed img {
+		max-width: 85px;
+	}
+}
+
+/*
+	-------------------------------------------------------------------
+		Styles for In the News and Press release feeds
+	-------------------------------------------------------------------
+*/
+
+.news-feed:first-child {
+	padding-top: 1rem;
+}
+
+.news-feed a {
+	color: #000000;
+}
+
+.news-feed .views-row {
+	border-bottom: 2px solid #dfa215;
+	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+a.read-more {
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding: .8rem;
+	background-color: #3d84cb;
+	border-radius: 5px;
+}
+
+a.read-more:focus,
+a.read-more:hover {
+	background-color: #1d446c;
+	color: #FFFFFF;
+}
+
+.news-feed h2 {
+	color: #e2b34a;
+	padding: 2rem 2rem 1rem;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+}
+
+.news-feed .pane-content {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.news-feed .views-field.views-field-field-image {
+	padding: 0.5rem 1rem 0.5rem 0rem;
+	float: left;
+}
+
+.news-feed h4.views-field.views-field-title {
+	padding-bottom: 0.5rem;
+}
+
+.news-feed .views-field.views-field-nothing {
+	text-align: center;
+}
+
+.news-feed .post-date {
+	font-size: .75rem;
+	font-style: italic;
+}
+
+/*
+	-------------------------------------------------------------------
+		Styles for border_dashes panel style
+	-------------------------------------------------------------------
+*/
+
+.border-dashes table {
+	border-width: 3px;
+	border-style: dashed;
+}
+
+.border-dashes table th {
+	font-size: 1.5rem;
+	color: #008CBA;
+}
+
+.border-dashes table td {
+	font-size: 1rem;
+}
+
+/*
+	-------------------------------------------------------------------
+		Styles for list_inline panel style
+	-------------------------------------------------------------------
+*/
+
+.list-inline {
+	padding: 1rem;
+	background-color: #A592C0;
+}
+
+.list-inline .item-list ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.list-inline .item-list ul li a {
+	color: #FFFFFF;
+}
+
+.list-inline .item-list ul li a:hover {
+	color: #333333;
+}
+
+/*
+	---------------------------------------------------------------------------
+		grey e5 Background (grey_e5)	
+	---------------------------------------------------------------------------
+*/
+
+.grey-e5 {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E5E5E5;
+	word-wrap: break-word;
+	color: #000000;
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+}
+
+.grey-e5 .pane-title {
+	border-bottom: 1px solid #ffffff;
+}
+
+.grey-e5 ul {
+	margin: 0;
+}
+
+.grey-e5 ul li a {
+	color: #000000;
+}
+
+.grey-e5 ul li a:hover {
+	color: #dfa215;
+}
+
+/*
+	---------------------------------------------------------------------------
+		dull pink Background (dull_pink)	
+	---------------------------------------------------------------------------
+*/
+
+.dull-pink {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F1DBDA;
+	word-wrap: break-word;
+	color: #000000;
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+}
+
+.dull-pink .pane-title {
+	border-bottom: 1px solid #ffffff;
+}
+
+.dull-pink ul {
+	margin: 0;
+}
+
+.dull-pink ul li a {
+	color: #000000;
+}
+
+.dull-pink ul li a:hover {
+	color: #dfa215;
+}
+
+/*
+	---------------------------------------------------------------------------
+		dusk pink Background (dusk_pink)	
+	---------------------------------------------------------------------------
+*/
+
+.dusk-pink {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #CFBDBF;
+	word-wrap: break-word;
+	color: #000000;
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+}
+
+.dusk-pink .pane-title {
+	border-bottom: 1px solid #ffffff;
+}
+
+.dusk-pink ul {
+	margin: 0;
+}
+
+.dusk-pink ul li a {
+	color: #000000;
+}
+
+.dusk-pink ul li a:hover {
+	color: #dfa215;
+}
+
+.dusk-pink a {
+	color: #CD5C5C;
+}
+
+.dusk-pink a:hover {
+	color: #8f4040;
+}
+
+/*
+	---------------------------------------------------------------------------
+		lace pink Background (lace_pink)	
+	---------------------------------------------------------------------------
+*/
+
+.lace-pink {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FCD0CF;
+	word-wrap: break-word;
+	color: #000000;
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+}
+
+.lace-pink .pane-title {
+	border-bottom: 1px solid #ffffff;
+}
+
+.lace-pink ul {
+	margin: 0;
+}
+
+.lace-pink ul li a {
+	color: #000000;
+}
+
+.lace-pink ul li a:hover {
+	color: #dfa215;
+}
+
+/*
+	---------------------------------------------------------------------------
+		deflated grey Background (deflated_grey)	
+	---------------------------------------------------------------------------
+*/
+
+.deflated-grey {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #A2A9AF;
+	word-wrap: break-word;
+	padding: 0.5rem 1rem;
+	color: #000000;
+	margin: 2rem 0;
+}
+
+.deflated-grey .pane-title {
+	border-bottom: 1px solid #ffffff;
+}
+
+.deflated-grey ul {
+	margin: 0;
+}
+
+.deflated-grey ul li a {
+	color: #000000;
+}
+
+.deflated-grey ul li a:hover {
+	color: #dfa215;
+}
+
+/*
+	---------------------------------------------------------------------------
+		dry yellow Background (dry_yellow)	
+	---------------------------------------------------------------------------
+*/
+
+.dry-yellow {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FCFCCF;
+	word-wrap: break-word;
+	color: #000000;
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+}
+
+.dry-yellow .pane-title {
+	border-bottom: 1px solid #ffffff;
+}
+
+.dry-yellow ul {
+	margin: 0;
+}
+
+.dry-yellow ul li a {
+	color: #000000;
+}
+
+.dry-yellow ul li a:hover {
+	color: #dfa215;
+}
+
+.dry-yellow a {
+	color: #20B2AA;
+}
+
+.dry-yellow a:hover {
+	color: #136a66;
+}
+
+/*
+	---------------------------------------------------------------------------
+		Zibra Link Buttons (zibra_link_buttons)	
+	---------------------------------------------------------------------------
+*/
+
+.zibra-link-buttons ul {
+	list-style-type: none;
+	margin: 1rem 0;	
+}
+
+.zibra-link-buttons ul li {
+	margin: 0;
+	margin-bottom: 1rem;	
+}
+
+.zibra-link-buttons ul li a, 
+.zibra-link-buttons input,
+.zibra-link-buttons input.form-submit {
+	color: #FFFFFF;
+	padding: 0.5rem 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	transition: 300ms;
+}
+
+.zibra-link-buttons ul li:nth-child(even), 
+.zibra-link-buttons input:nth-child(even),
+.zibra-link-buttons input.form-submit:nth-child(even) {
+	background: #FCD0CF;
+	border: 2px solid #b09190;
+}
+
+.zibra-link-buttons ul li:nth-child(even):hover, 
+.zibra-link-buttons input:nth-child(even):hover,
+.zibra-link-buttons input.form-submit:nth-child(even):hover {
+	background: #b09190;
+}
+
+.zibra-link-buttons ul li:nth-child(odd), 
+.zibra-link-buttons input:nth-child(odd),
+.zibra-link-buttons input.form-submit:nth-child(odd) {
+	background: #A2A9AF;
+	border: 2px solid #616569;
+}
+
+.zibra-link-buttons ul li:nth-child(odd):hover, 
+.zibra-link-buttons input:nth-child(odd):hover,
+.zibra-link-buttons input.form-submit:nth-child(odd):hover {
+	background: #616569;
+}
+
+.zibra-link-buttons ul li:nth-child(3n+0), 
+.zibra-link-buttons input:nth-child(3n+0),
+.zibra-link-buttons input.form-submit:nth-child(3n+0) {
+	background: #CFBDBF;
+	border: 2px solid #7c7172;
+}
+
+.zibra-link-buttons ul li:nth-child(3n+0):hover, 
+.zibra-link-buttons input:nth-child(3n+0):hover,
+.zibra-link-buttons input.form-submit:nth-child(3n+0):hover {
+	background: #7c7172;
+}
+
+/*
+	---------------------------------------------------------------------------
+		Green Button (green_button)	
+	---------------------------------------------------------------------------
+*/
+
+.green-button ul {
+	list-style-type: none;
+	margin: 1rem 0;	
+}
+
+.green-button ul li {
+	margin: 0;
+	margin-bottom: 1rem;	
+}
+
+.green-button button,
+.green-button .button,
+.green-button ul li a, 
+.green-button input,
+.green-button input.form-submit {
+	color: #FFFFFF;
+	background: #328432;
+	border: 2px solid #006600;
+	padding: 0.5rem 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	transition: 300ms;
+}
+
+.green-button button:hover,
+.green-button .button:hover,
+.green-button ul li a:hover,
+.green-button input:hover,
+.green-button input.form-submit:hover {
+	background: #006600;
+}
