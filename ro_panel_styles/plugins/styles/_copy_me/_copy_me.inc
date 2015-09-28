@@ -2,21 +2,21 @@
 
 /**
  * @file
- * Change me what is the 
+ * Change me to what this style is suppose to be doing
  */
 
 $plugin = array(
   'title' => t('Change the title of the pane'),
   'description' => t('Change me I am a description for this style.'),
-  'render pane' => 'ro_panel_styles_change_me_pane',
-  'render region' => 'ro_panel_styles_change_me_region',
+  'render pane' => 'ro_panel_styles_changeme_pane',
+  'render region' => 'ro_panel_styles_changeme_region',
   'weight' => -10,
 );
 
 /**
  * Theme function for the pane style.
  */            
-function theme_ro_panel_styles_change_me_pane($vars) {
+function theme_ro_panel_styles_changeme_pane($vars) {
   $content = $vars['content'];
   $pane = $vars['pane'];
   $display = $vars['display'];
@@ -35,7 +35,7 @@ function theme_ro_panel_styles_change_me_pane($vars) {
 /**
  * Theme function for the region style.
  */
-function theme_ro_panel_styles_change_me_region($vars) {
+function theme_ro_panel_styles_changeme_region($vars) {
   $display = $vars['display'];
   $region_id = $vars['region_id'];
   $panes = $vars['panes'];
