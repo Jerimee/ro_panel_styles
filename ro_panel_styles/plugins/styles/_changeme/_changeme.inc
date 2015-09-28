@@ -15,7 +15,9 @@ $plugin = array(
 
 /**
  * Theme function for the pane style.
- */            
+ *
+ */
+
 function theme_ro_panel_styles_changeme_pane($vars) {
   $content = $vars['content'];
   $pane = $vars['pane'];
@@ -34,7 +36,9 @@ function theme_ro_panel_styles_changeme_pane($vars) {
 
 /**
  * Theme function for the region style.
+ *
  */
+
 function theme_ro_panel_styles_changeme_region($vars) {
   $display = $vars['display'];
   $region_id = $vars['region_id'];
