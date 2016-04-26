@@ -1146,10 +1146,11 @@ a.read-more:hover {
 	color: #000000;
 	padding: 0.5rem 1rem;
 	margin: 2rem 0;
+	border: 1px solid #E1E199;
 }
 
 .dry-yellow .pane-title {
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #E1E199;
 }
 
 .dry-yellow ul {
