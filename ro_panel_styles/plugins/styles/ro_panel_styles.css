@@ -1173,6 +1173,31 @@ a.read-more:hover {
 	color: #136a66;
 }
 
+.dry-yellow ul li {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dry-yellow li:nth-child(odd) {
+    background-color: #FDFDE8;
+    border-left: 25px solid #FCFCCF;
+    border-right: 25px solid #FDFDE8;
+}
+.dry-yellow li:nth-child(even) {
+    background-color: #FDFDE8;
+    border-left: 25px solid #FDFDE8;
+    border-right: 25px solid #FCFCCF;
+}
+
+.dry-yellow .item-list ul li {
+    margin: 0 0 0.25em 0;
+    padding: 0;
+}
+
+.dry-yellow .item-list ul, .dry-yellow ul {
+    list-style-position: inside;
+}
+
 /*
 	---------------------------------------------------------------------------
 		Zibra Link Buttons (zibra_link_buttons)	
