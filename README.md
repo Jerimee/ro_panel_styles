@@ -2,10 +2,10 @@
 
 ## NOTE 
 
-If you download the zip be sure to pull the directory *ro_panel_styles* out of the ro_panel_styles-master zip file and ro_panel_styles-master dir. 
+If you download the zip be sure to pull the directory **ro_panel_styles** out of the ro_panel_styles-master zip file and ro_panel_styles-master dir. 
 
-BAD: ro_panel_styles-master
-GOOD: ro_panel_styles
+* BAD: ro_panel_styles-master
+* GOOD: ro_panel_styles
 
 The file named *ro_panel_styles.info* should be placed in a directory structure like sites/all/modules/ro_panel_styles/ro_panel_styles.info
 
