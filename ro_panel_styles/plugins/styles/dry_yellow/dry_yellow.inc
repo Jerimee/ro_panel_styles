@@ -2,12 +2,12 @@
 
 /**
  * @file
- * Changes dusk pink background
+ * yellow background
  */
 
 $plugin = array(
-  'title' => t('Dry Yello Background'),
-  'description' => t('A dry yellow background.'),
+  'title' => t('Dry Yellow Background'),
+  'description' => t('A dry yellow background with a faint border.'),
   'render pane' => 'ro_panel_styles_dry_yellow_pane',
   'render region' => 'ro_panel_styles_dry_yellow_region',
   'weight' => -10,
