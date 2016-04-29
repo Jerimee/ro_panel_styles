@@ -1217,12 +1217,13 @@ a.read-more:hover {
 .zibra-link-buttons ul li a, 
 .zibra-link-buttons input,
 .zibra-link-buttons input.form-submit {
-	color: #FFFFFF;
+	color: #4A4A4A;
 	padding: 0.5rem 0;
 	width: 100%;
 	display: block;
 	text-align: center;
 	transition: 300ms;
+	font-weight:bold;
 }
 
 .zibra-link-buttons ul li:nth-child(even), 
