@@ -6,8 +6,8 @@
  */
 
 $plugin = array(
-  'title' => t('Zibra Button Links'),
-  'description' => t('Style sidebar link lists into nice buttons with alternating colors.'),
+  'title' => t('Zibra Link Buttons'),
+  'description' => t('Style sidebar link lists into nice buttons with alternating pink and grey colors.'),
   'render pane' => 'ro_panel_styles_zibra_link_buttons_pane',
   'render region' => 'ro_panel_styles_zibra_link_buttons_region',
   'weight' => -10,
