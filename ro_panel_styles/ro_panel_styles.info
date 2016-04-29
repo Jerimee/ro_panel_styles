@@ -1,5 +1,5 @@
 name = Richir Outreach Panel Styles
-description = "Provides additional style options for panels"
+description = "Custom styles: this module provides additional style options for panels. It is a work in progress and should be enabled and used with caution."
 dependencies[] = panels
 stylesheets[all][] = foundation.grid.css
 
